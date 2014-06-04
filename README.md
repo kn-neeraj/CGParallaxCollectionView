@@ -12,4 +12,3 @@ Please read [the accompanying blog post]http://oleb.net/blog/2014/04/parallax-sc
 <source src="http://oleb.net/media/parallax-scrolling-640x1136.m4v" type="video/mp4" />
 </video>
 
- Here is the https://github.com/ole/CollectionViewParallaxScrolling to his project
