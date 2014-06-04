@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA162163193F880400460C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA162162193F880400460C7E /* AppDelegate.swift */; };
+		EA162165193F880400460C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA162164193F880400460C7E /* ViewController.swift */; };
+		EA162168193F880500460C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA162166193F880500460C7E /* Main.storyboard */; };
+		EA16216A193F880500460C7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA162169193F880500460C7E /* Images.xcassets */; };
+		EA162176193F880500460C7E /* CGParllaxCollectionView_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA162175193F880500460C7E /* CGParllaxCollectionView_FinalTests.swift */; };
+		EAA5F092193F89530018C932 /* 01-mallorca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA5F076193F89530018C932 /* 01-mallorca.jpg */; };
+		EAA5F093193F89530018C932 /* 02-fishing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA5F077193F89530018C932 /* 02-fishing.jpg */; };
+		EAA5F094193F89530018C932 /* 03-chili.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA5F078193F89530018C932 /* 03-chili.jpg */; };
+		EAA5F095193F89530018C932 /* 04-rice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA5F079193F89530018C932 /* 04-rice.jpg */; };
+		EAA5F096193F89530018C932 /* 05-sweden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA5F07A193F89530018C932 /* 05-sweden.jpg */; };
+		EAA5F097193F89530018C932 /* 06-magicforest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA5F07B193F89530018C932 /* 06-magicforest.jpg */; };
+		EAA5F098193F89530018C932 /* 07-bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA5F07C193F89530018C932 /* 07-bird.jpg */; };
+		EAA5F099193F89530018C932 /* 08-iguana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA5F07D193F89530018C932 /* 08-iguana.jpg */; };
+		EAA5F09A193F89530018C932 /* 09-valley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA5F07E193F89530018C932 /* 09-valley.jpg */; };
+		EAA5F09B193F89530018C932 /* 10-parrots.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA5F07F193F89530018C932 /* 10-parrots.jpg */; };
+		EAA5F0AD193F89530018C932 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = EAA5F091193F89530018C932 /* Photos.plist */; };
+		EAA5F0AF193F89760018C932 /* CGParallaxLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5F0AE193F89760018C932 /* CGParallaxLayoutAttributes.swift */; };
+		EAA5F0B1193F89B50018C932 /* CGParallaxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5F0B0193F89B50018C932 /* CGParallaxCollectionViewCell.swift */; };
+		EAA5F0B3193F8A350018C932 /* CGParallaxFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA5F0B2193F8A350018C932 /* CGParallaxFlowLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA162170193F880500460C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA162155193F880400460C7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA16215C193F880400460C7E;
+			remoteInfo = "CGParllaxCollectionView-Final";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA16215D193F880400460C7E /* CGParllaxCollectionView-Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CGParllaxCollectionView-Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA162161193F880400460C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA162162193F880400460C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA162164193F880400460C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA162167193F880500460C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA162169193F880500460C7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA16216F193F880500460C7E /* CGParllaxCollectionView-FinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CGParllaxCollectionView-FinalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA162174193F880500460C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA162175193F880500460C7E /* CGParllaxCollectionView_FinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGParllaxCollectionView_FinalTests.swift; sourceTree = "<group>"; };
+		EAA5F076193F89530018C932 /* 01-mallorca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-mallorca.jpg"; sourceTree = "<group>"; };
+		EAA5F077193F89530018C932 /* 02-fishing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-fishing.jpg"; sourceTree = "<group>"; };
+		EAA5F078193F89530018C932 /* 03-chili.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03-chili.jpg"; sourceTree = "<group>"; };
+		EAA5F079193F89530018C932 /* 04-rice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04-rice.jpg"; sourceTree = "<group>"; };
+		EAA5F07A193F89530018C932 /* 05-sweden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05-sweden.jpg"; sourceTree = "<group>"; };
+		EAA5F07B193F89530018C932 /* 06-magicforest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "06-magicforest.jpg"; sourceTree = "<group>"; };
+		EAA5F07C193F89530018C932 /* 07-bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "07-bird.jpg"; sourceTree = "<group>"; };
+		EAA5F07D193F89530018C932 /* 08-iguana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "08-iguana.jpg"; sourceTree = "<group>"; };
+		EAA5F07E193F89530018C932 /* 09-valley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "09-valley.jpg"; sourceTree = "<group>"; };
+		EAA5F07F193F89530018C932 /* 10-parrots.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10-parrots.jpg"; sourceTree = "<group>"; };
+		EAA5F091193F89530018C932 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		EAA5F0AE193F89760018C932 /* CGParallaxLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGParallaxLayoutAttributes.swift; sourceTree = "<group>"; };
+		EAA5F0B0193F89B50018C932 /* CGParallaxCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGParallaxCollectionViewCell.swift; sourceTree = "<group>"; };
+		EAA5F0B2193F8A350018C932 /* CGParallaxFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGParallaxFlowLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA16215A193F880400460C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA16216C193F880500460C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA162154193F880400460C7E = {
+			isa = PBXGroup;
+			children = (
+				EA16215F193F880400460C7E /* CGParllaxCollectionView-Final */,
+				EA162172193F880500460C7E /* CGParllaxCollectionView-FinalTests */,
+				EA16215E193F880400460C7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA16215E193F880400460C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA16215D193F880400460C7E /* CGParllaxCollectionView-Final.app */,
+				EA16216F193F880500460C7E /* CGParllaxCollectionView-FinalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA16215F193F880400460C7E /* CGParllaxCollectionView-Final */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5F075193F89530018C932 /* Photos */,
+				EAA5F072193F891E0018C932 /* Cells */,
+				EAA5F073193F891E0018C932 /* CollectionViewLayout */,
+				EAA5F074193F891E0018C932 /* LayoutAttributes */,
+				EA162162193F880400460C7E /* AppDelegate.swift */,
+				EA162164193F880400460C7E /* ViewController.swift */,
+				EA162166193F880500460C7E /* Main.storyboard */,
+				EA162169193F880500460C7E /* Images.xcassets */,
+				EA162160193F880400460C7E /* Supporting Files */,
+			);
+			path = "CGParllaxCollectionView-Final";
+			sourceTree = "<group>";
+		};
+		EA162160193F880400460C7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA162161193F880400460C7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA162172193F880500460C7E /* CGParllaxCollectionView-FinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA162175193F880500460C7E /* CGParllaxCollectionView_FinalTests.swift */,
+				EA162173193F880500460C7E /* Supporting Files */,
+			);
+			path = "CGParllaxCollectionView-FinalTests";
+			sourceTree = "<group>";
+		};
+		EA162173193F880500460C7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA162174193F880500460C7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAA5F072193F891E0018C932 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5F0B0193F89B50018C932 /* CGParallaxCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EAA5F073193F891E0018C932 /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5F0B2193F8A350018C932 /* CGParallaxFlowLayout.swift */,
+			);
+			path = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		EAA5F074193F891E0018C932 /* LayoutAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5F0AE193F89760018C932 /* CGParallaxLayoutAttributes.swift */,
+			);
+			path = LayoutAttributes;
+			sourceTree = "<group>";
+		};
+		EAA5F075193F89530018C932 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				EAA5F076193F89530018C932 /* 01-mallorca.jpg */,
+				EAA5F077193F89530018C932 /* 02-fishing.jpg */,
+				EAA5F078193F89530018C932 /* 03-chili.jpg */,
+				EAA5F079193F89530018C932 /* 04-rice.jpg */,
+				EAA5F07A193F89530018C932 /* 05-sweden.jpg */,
+				EAA5F07B193F89530018C932 /* 06-magicforest.jpg */,
+				EAA5F07C193F89530018C932 /* 07-bird.jpg */,
+				EAA5F07D193F89530018C932 /* 08-iguana.jpg */,
+				EAA5F07E193F89530018C932 /* 09-valley.jpg */,
+				EAA5F07F193F89530018C932 /* 10-parrots.jpg */,
+				EAA5F091193F89530018C932 /* Photos.plist */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA16215C193F880400460C7E /* CGParllaxCollectionView-Final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA162179193F880500460C7E /* Build configuration list for PBXNativeTarget "CGParllaxCollectionView-Final" */;
+			buildPhases = (
+				EA162159193F880400460C7E /* Sources */,
+				EA16215A193F880400460C7E /* Frameworks */,
+				EA16215B193F880400460C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CGParllaxCollectionView-Final";
+			productName = "CGParllaxCollectionView-Final";
+			productReference = EA16215D193F880400460C7E /* CGParllaxCollectionView-Final.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA16216E193F880500460C7E /* CGParllaxCollectionView-FinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA16217C193F880500460C7E /* Build configuration list for PBXNativeTarget "CGParllaxCollectionView-FinalTests" */;
+			buildPhases = (
+				EA16216B193F880500460C7E /* Sources */,
+				EA16216C193F880500460C7E /* Frameworks */,
+				EA16216D193F880500460C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA162171193F880500460C7E /* PBXTargetDependency */,
+			);
+			name = "CGParllaxCollectionView-FinalTests";
+			productName = "CGParllaxCollectionView-FinalTests";
+			productReference = EA16216F193F880500460C7E /* CGParllaxCollectionView-FinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA162155193F880400460C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = CocoaGarage;
+				TargetAttributes = {
+					EA16215C193F880400460C7E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EA16216E193F880500460C7E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EA16215C193F880400460C7E;
+					};
+				};
+			};
+			buildConfigurationList = EA162158193F880400460C7E /* Build configuration list for PBXProject "CGParllaxCollectionView-Final" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA162154193F880400460C7E;
+			productRefGroup = EA16215E193F880400460C7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA16215C193F880400460C7E /* CGParllaxCollectionView-Final */,
+				EA16216E193F880500460C7E /* CGParllaxCollectionView-FinalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA16215B193F880400460C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA5F09A193F89530018C932 /* 09-valley.jpg in Resources */,
+				EAA5F099193F89530018C932 /* 08-iguana.jpg in Resources */,
+				EAA5F097193F89530018C932 /* 06-magicforest.jpg in Resources */,
+				EAA5F098193F89530018C932 /* 07-bird.jpg in Resources */,
+				EAA5F095193F89530018C932 /* 04-rice.jpg in Resources */,
+				EAA5F093193F89530018C932 /* 02-fishing.jpg in Resources */,
+				EAA5F09B193F89530018C932 /* 10-parrots.jpg in Resources */,
+				EAA5F096193F89530018C932 /* 05-sweden.jpg in Resources */,
+				EA162168193F880500460C7E /* Main.storyboard in Resources */,
+				EA16216A193F880500460C7E /* Images.xcassets in Resources */,
+				EAA5F092193F89530018C932 /* 01-mallorca.jpg in Resources */,
+				EAA5F094193F89530018C932 /* 03-chili.jpg in Resources */,
+				EAA5F0AD193F89530018C932 /* Photos.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA16216D193F880500460C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA162159193F880400460C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA162165193F880400460C7E /* ViewController.swift in Sources */,
+				EA162163193F880400460C7E /* AppDelegate.swift in Sources */,
+				EAA5F0B3193F8A350018C932 /* CGParallaxFlowLayout.swift in Sources */,
+				EAA5F0AF193F89760018C932 /* CGParallaxLayoutAttributes.swift in Sources */,
+				EAA5F0B1193F89B50018C932 /* CGParallaxCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA16216B193F880500460C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA162176193F880500460C7E /* CGParllaxCollectionView_FinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA162171193F880500460C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA16215C193F880400460C7E /* CGParllaxCollectionView-Final */;
+			targetProxy = EA162170193F880500460C7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA162166193F880500460C7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA162167193F880500460C7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA162177193F880500460C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA162178193F880500460C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA16217A193F880500460C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "CGParllaxCollectionView-Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA16217B193F880500460C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "CGParllaxCollectionView-Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA16217D193F880500460C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CGParllaxCollectionView-Final.app/CGParllaxCollectionView-Final";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CGParllaxCollectionView-FinalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EA16217E193F880500460C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CGParllaxCollectionView-Final.app/CGParllaxCollectionView-Final";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CGParllaxCollectionView-FinalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA162158193F880400460C7E /* Build configuration list for PBXProject "CGParllaxCollectionView-Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA162177193F880500460C7E /* Debug */,
+				EA162178193F880500460C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA162179193F880500460C7E /* Build configuration list for PBXNativeTarget "CGParllaxCollectionView-Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA16217A193F880500460C7E /* Debug */,
+				EA16217B193F880500460C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA16217C193F880500460C7E /* Build configuration list for PBXNativeTarget "CGParllaxCollectionView-FinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA16217D193F880500460C7E /* Debug */,
+				EA16217E193F880500460C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA162155193F880400460C7E /* Project object */;
+}
