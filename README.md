@@ -10,6 +10,9 @@ Checkout the gif here -
 
 https://github.com/kNeerajPro/CGParallaxCollectionView/blob/master/ParallaxScrollingViewGif.gif
 
+Checkout the library at http://www.learnswift.tips/ and https://www.cocoacontrols.com/controls/cgparallaxcollectionview.
+
+
 
 
 
