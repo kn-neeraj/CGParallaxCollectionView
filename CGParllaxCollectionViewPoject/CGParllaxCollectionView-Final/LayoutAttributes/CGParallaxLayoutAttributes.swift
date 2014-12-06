@@ -11,12 +11,12 @@ import UIKit
 
 class CGParallaxLayoutAttributes : UICollectionViewLayoutAttributes {
     var parallaxOffset : CGPoint
-    init() {
+    override init() {
         self.parallaxOffset = CGPointZero
         super.init()
     }
     
-    override func copyWithZone(zone: NSZone) -> AnyObject! {
+    override func copyWithZone(zone: NSZone) -> AnyObject {
         var copy: CGParallaxLayoutAttributes = super.copyWithZone(zone) as CGParallaxLayoutAttributes
         copy.parallaxOffset = self.parallaxOffset
         return copy

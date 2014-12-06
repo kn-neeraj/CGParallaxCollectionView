@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     // Array of images to show.
-    var images =  ["01-mallorca.jpg", "02-fishing.jpg", "03-chili.jpg", "04-rice.jpg", "05-sweden.jpg", "06-magicForest.jpg", "07-bird.jpg", "08-iguana.jpg", "09-valley.jpg", "10-parrots.jpg"]
+    let images =  ["01-mallorca.jpg", "02-fishing.jpg", "03-chili.jpg", "04-rice.jpg", "05-sweden.jpg", "06-magicForest.jpg", "07-bird.jpg", "08-iguana.jpg", "09-valley.jpg", "10-parrots.jpg"]
     
     // CollectionView property
     let myCollectionView:UICollectionView = UICollectionView(frame: CGRectZero, collectionViewLayout: CGParallaxFlowLayout())
@@ -36,16 +36,16 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         // Dispose of any resources that can be recreated.
     }
 
-    func collectionView(collectionView: UICollectionView!, numberOfItemsInSection section: Int) -> Int
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
         return images.count
     }
     
-    func collectionView(collectionView: UICollectionView!, cellForItemAtIndexPath indexPath: NSIndexPath!) -> UICollectionViewCell!
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
     {
         var cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as CGParallaxCollectionViewCell
         var imageName: String = self.images[indexPath.row] as String
-        cell.imageView.image = UIImage(named: imageName) as UIImage
+        cell.imageView.image = UIImage(named: imageName) as UIImage?
         
         return cell
     }
@@ -55,7 +55,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         var imageHeight:CGFloat = 480.0
         var flowLayout:CGParallaxFlowLayout = self.myCollectionView.collectionViewLayout as CGParallaxFlowLayout
         var cellWidth:CGFloat = CGRectGetWidth(self.myCollectionView.bounds) - flowLayout.sectionInset.left - flowLayout.sectionInset.right
-        var cellHeight:CGFloat = floorf(cellWidth/imageWidth * imageHeight) - (2 * flowLayout.maxParallaxOffset)
+   //     var cellHeight:CGFloat = floorf(cellWidth/imageWidth * imageHeight) - (2 * flowLayout.maxParallaxOffset)
+        var cellHeight:CGFloat = (floor(cellWidth/imageWidth * imageHeight) - (2.0 as CGFloat * flowLayout.maxParallaxOffset)) as CGFloat
         return CGSizeMake(cellWidth, cellHeight)
     }
     

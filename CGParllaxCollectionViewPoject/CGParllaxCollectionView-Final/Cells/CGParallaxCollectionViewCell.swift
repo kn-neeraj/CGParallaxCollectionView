@@ -15,7 +15,7 @@ class CGParallaxCollectionViewCell : UICollectionViewCell {
     var imageViewHeightConstraint:NSLayoutConstraint = NSLayoutConstraint()
     var imageViewCenterYConstraint:NSLayoutConstraint = NSLayoutConstraint()
     
-    init(frame: CGRect) {
+    override init(frame: CGRect) {
         super.init(frame: frame)
         self.clipsToBounds = true
         self.setupImageView()
@@ -23,7 +23,7 @@ class CGParallaxCollectionViewCell : UICollectionViewCell {
         self.setNeedsUpdateConstraints()
     }
     
-    init(coder aDecoder: NSCoder!) {
+    required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
